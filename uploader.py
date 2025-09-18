@@ -108,5 +108,5 @@ def daily_upload(username, daily_limit=20, start_hour=9, end_hour=23):
     print("✅ Finished today's batch.")
 
 def run_bot():
-    username = "example_username"
+    username = "premierleague"
     daily_upload(username, daily_limit=20, start_hour=9, end_hour=23)
